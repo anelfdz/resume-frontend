@@ -1,0 +1,22 @@
+.profile {
+    margin-top: 1.5rem;
+}
+
+.profileTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #374151;
+    border-bottom: 1px solid #d1d5db;
+    padding-bottom: 0.5rem;
+}
+
+.profileList {
+    margin-top: 1rem;
+    list-style-type: disc;
+    color: #4b5563;
+}
+
+.profileItem {
+    margin-bottom: 0.5rem;
+    list-style-position: inside;
+}

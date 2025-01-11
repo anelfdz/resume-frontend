@@ -1,0 +1,16 @@
+.resume-container {
+    background-color: #f3f4f6; /* Gray-100 */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 1rem; /* py-10 px-4 */
+}
+
+.resume-content {
+    background-color: #ffffff; /* White */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Shadow-lg */
+    border-radius: 0.5rem; /* Rounded-lg */
+    max-width: 64rem; /* Max-w-4xl */
+    width: 100%;
+    padding: 1.5rem; /* p-6 */
+}

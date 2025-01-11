@@ -1,0 +1,49 @@
+.experience {
+    margin-top: 1.5rem; /* Espaciado superior */
+}
+
+.experienceTitle {
+    font-size: 1.25rem; /* Text-xl */
+    font-weight: 600; /* Font-semibold */
+    color: #374151; /* Gray-700 */
+    border-bottom: 1px solid #d1d5db; /* Border Gray-300 */
+    padding-bottom: 0.5rem;
+}
+
+.experienceItem {
+    margin-top: 1.5rem; /* Espaciado entre experiencias */
+}
+
+.experienceHeader {
+    display: flex; /* Layout flexible */
+    justify-content: space-between; /* Título a la izquierda, fecha a la derecha */
+    align-items: baseline; /* Alinear texto */
+}
+
+.experiencePosition {
+    font-size: 1.125rem; /* Text-lg */
+    font-weight: 600; /* Font-semibold */
+    color: #1f2937; /* Gray-800 */
+}
+
+.experienceLocation {
+    font-size: 1rem; /* Text-base */
+    color: #6b7280; /* Gray-600 */
+}
+
+.experienceDuration {
+    font-size: 1rem; /* Text-base */
+    color: #4b5563; /* Gray-600 */
+}
+
+.experienceResponsibilities {
+    margin-top: 0.75rem; /* Espaciado entre encabezado y responsabilidades */
+    padding-left: 1.5rem; /* Espaciado para las viñetas */
+    list-style-type: disc; /* Viñetas */
+    color: #4b5563; /* Gray-600 */
+}
+
+.experienceResponsibility {
+    margin-bottom: 0.5rem; /* Espaciado entre responsabilidades */
+    line-height: 1.5rem; /* Mejor legibilidad */
+}

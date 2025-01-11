@@ -1,0 +1,20 @@
+.education {
+    margin-top: 1.5rem; /* Espaciado superior */
+}
+
+.educationTitle {
+    font-size: 1.25rem; /* Text-xl */
+    font-weight: 600; /* Font-semibold */
+    color: #374151; /* Gray-700 */
+    border-bottom: 1px solid #d1d5db; /* Border Gray-300 */
+    padding-bottom: 0.5rem;
+}
+
+.educationDetails {
+    display: flex; /* Habilitar diseño flexible */
+    justify-content: space-between; /* Distribuir espacio entre los elementos */
+    align-items: center; /* Alinear verticalmente */
+    margin-top: 1rem; /* Espaciado superior */
+    color: #4b5563; /* Gray-600 */
+    font-size: 1rem; /* Text-base */
+}

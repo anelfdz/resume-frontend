@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb; /* Gray-300 */
+    padding-bottom: 1rem;
+}
+
+.headerTitle {
+    font-size: 1.875rem; /* Text-3xl */
+    font-weight: 700; /* Font-bold */
+    color: #1f2937; /* Gray-800 */
+}
+
+.headerDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Space-x-4 */
+    margin-top: 0.5rem;
+    color: #4b5563; /* Gray-600 */
+}
+
+.headerLink {
+    color: #3b82f6; /* Blue-500 */
+    text-decoration: none;
+}
+
+.headerLink:hover {
+    text-decoration: underline;
+}
+
+.headerDescription {
+    margin-top: 1rem;
+    text-align: justify;
+    color: #6b7280; /* Gray-500 */
+}

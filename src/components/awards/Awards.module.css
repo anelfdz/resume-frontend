@@ -1,0 +1,34 @@
+.awards {
+    margin-top: 2rem; /* Espaciado superior */
+}
+
+.awardsTitle {
+    font-size: 1.25rem; /* Text-xl */
+    font-weight: 600; /* Font-semibold */
+    color: #374151; /* Gray-700 */
+    border-bottom: 1px solid #d1d5db; /* Border Gray-300 */
+    padding-bottom: 0.5rem;
+}
+
+.awardsList {
+    margin-top: 1rem; /* Espaciado entre título y lista */
+    padding-left: 0; /* Sin padding para la lista */
+    list-style-type: none; /* Eliminar viñetas */
+}
+
+.awardItem {
+    margin-bottom: 1rem; /* Espaciado entre premios */
+}
+
+.awardTitle {
+    font-size: 1rem; /* Text-base */
+    font-weight: 600; /* Font-semibold */
+    color: #1f2937; /* Gray-800 */
+}
+
+.awardDescription {
+    margin-top: 0.25rem; /* Espaciado entre título y descripción */
+    font-size: 0.875rem; /* Text-sm */
+    color: #4b5563; /* Gray-600 */
+    line-height: 1.5rem; /* Mejor legibilidad */
+}
