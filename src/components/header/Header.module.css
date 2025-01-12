@@ -1,35 +1,58 @@
-.header {
+.header-container {
     text-align: center;
-    border-bottom: 1px solid #e5e7eb; /* Gray-300 */
-    padding-bottom: 1rem;
+    margin-bottom: 1.5rem; /* Más espacio inferior */
 }
 
-.headerTitle {
+.header-title {
     font-size: 1.875rem; /* Text-3xl */
-    font-weight: 700; /* Font-bold */
-    color: #1f2937; /* Gray-800 */
+    font-weight: bold;
+    color: #1f2937; /* Gris oscuro */
+    margin-bottom: 1rem; /* Espacio entre el nombre y los datos */
 }
 
-.headerDetails {
+.header-links {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem; /* Space-x-4 */
-    margin-top: 0.5rem;
-    color: #4b5563; /* Gray-600 */
+    flex-direction: column; /* Organización vertical en mobile */
+    gap: 0.5rem; /* Espaciado entre elementos */
+    font-size: 1rem; /* Aumentar tamaño de fuente */
+    color: #374151; /* Gris medio */
 }
 
-.headerLink {
-    color: #3b82f6; /* Blue-500 */
+.header-link {
+    color: #1a73e8; /* Azul para enlaces */
     text-decoration: none;
 }
 
-.headerLink:hover {
-    text-decoration: underline;
+.header-link:hover {
+    text-decoration: underline; /* Subrayado en hover */
 }
 
-.headerDescription {
+.header-divider {
+    display: none; /* Ocultamos el separador en mobile */
+}
+
+.header-description {
     margin-top: 1rem;
     text-align: justify;
     color: #6b7280; /* Gray-500 */
+}
+
+.header-description p {
+    margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+    .header-links {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .header-divider {
+        display: inline;
+    }
+
+    .header-description {
+        text-align: left;
+    }
 }

@@ -9,6 +9,10 @@ import {fetchResumeData} from '../api/resumeApi';
 import './Resume.module.css';
 
 const Resume = () => {
+    useEffect(() => {
+        document.title = "Resume - Anel Fernández";
+    }, []);
+
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -35,12 +39,12 @@ const Resume = () => {
         <div className="bg-gray-100 min-h-screen flex justify-center py-10 px-4">
             <div className="bg-white shadow-lg rounded-lg max-w-4xl w-full p-8">
                 <Header
+                    name={data.header.name}
                     email={data.header.email}
                     linkedIn={data.header.linkedIn}
                     location={data.header.location}
                     summary={data.header.summary}
-                    nextChallenge={data.header.nextChallenge}
-                    interests={data.header.interests}
+                    description={data.header.description}
                 />
 
                 <Profile profile={data.profile}/>

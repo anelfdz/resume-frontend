@@ -17,11 +17,14 @@ export const fetchResumeData = async () => {
 
     return {
         header: {
+            name: "Anel Fernández",
             email: "anel.a90@gmail.com",
             linkedIn: "https://www.linkedin.com/in/anelfdz",
             location: "Chile/Remote",
-            nextChallenge: "Seeking a challenging senior leadership role where my extensive experiences on software development, computer design and technical innovation skills can synthesize into revolutionary products.",
-            interests: "Strong interest in Productivity & Platform Engineering and Cross-Functional collaboration. Open to relocation to the United States for the right opportunity."
+            description: [
+                "Seeking a challenging senior leadership role where my extensive experiences on software development, computer design and technical innovation skills can synthesize into revolutionary products.",
+                "Strong interest in Productivity & Platform Engineering and Cross-Functional collaboration. Open to relocation to the United States for the right opportunity."
+            ]
         },
         profile: {
             description: [
