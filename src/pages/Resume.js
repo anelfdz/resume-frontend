@@ -9,10 +9,6 @@ import {fetchResumeData} from '../api/resumeApi';
 import './Resume.module.css';
 
 const Resume = () => {
-    useEffect(() => {
-        document.title = "Resume - Anel Fernández";
-    }, []);
-
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
