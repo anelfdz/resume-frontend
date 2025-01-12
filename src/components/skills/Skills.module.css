@@ -1,5 +1,5 @@
 .skills {
-    margin-top: 1.5rem;
+    margin-top: 2rem; /* Espaciado superior */
 }
 
 .skillsTitle {
@@ -10,12 +10,27 @@
     padding-bottom: 0.5rem;
 }
 
-.skillsList {
-    margin-top: 1rem; /* Espaciado entre título y lista */
-    color: #4b5563; /* Gray-600 */
+.skillsGrid {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Dos columnas: categoría e ítems */
+    gap: 1rem 2rem; /* Espaciado entre filas y columnas */
 }
 
-.skillsItem {
-    margin-bottom: 1rem; /* Espaciado entre ítems */
-    line-height: 1.75rem; /* Mejor legibilidad */
+.skillRow {
+    display: contents; /* Alinear en formato grid */
+}
+
+.category {
+    font-size: 1rem; /* Text-base */
+    font-weight: 600; /* Font-semibold */
+    color: #1f2937; /* Gray-800 */
+    text-align: left;
+}
+
+.items {
+    font-size: 1rem; /* Text-base */
+    color: #4b5563; /* Gray-600 */
+    text-align: left;
+    line-height: 1.5rem; /* Mejor legibilidad */
 }
