@@ -46,4 +46,5 @@
 .experienceResponsibility {
     margin-bottom: 0.5rem; /* Espaciado entre responsabilidades */
     line-height: 1.5rem; /* Mejor legibilidad */
+    text-align: justify;
 }

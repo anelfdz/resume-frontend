@@ -39,6 +39,7 @@
 
 .header-description p {
     margin-top: 1rem;
+    text-align: justify;
 }
 
 @media (min-width: 640px) {

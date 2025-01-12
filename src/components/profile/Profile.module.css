@@ -19,4 +19,5 @@
 .profileItem {
     margin-bottom: 0.5rem;
     list-style-position: inside;
+    text-align: justify;
 }
